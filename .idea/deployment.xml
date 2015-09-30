@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="awsFourfax" createEmptyFolders="true">
+    <serverData>
+      <paths name="awsFourfax">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/fourfax" local="$PROJECT_DIR$" web="/fourfax" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

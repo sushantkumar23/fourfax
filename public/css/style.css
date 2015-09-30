@@ -1,0 +1,38 @@
+body {
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #000;
+}
+.fourfax-navbar {
+  background-color: rgba(255,255,255,0.9);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.fourfax-navbar .navbar-nav>li>a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 300;
+}
+.hiw-container {
+  padding: 30px;
+}
+.hiw-body {
+  padding-top: 30px;
+}
+.hiw-items {
+  padding: 20px;
+}
+.section-title {
+  font-weight: 900;
+}
+.section-subtitle {
+  font-weight: 200;
+  font-size: 20px;
+}
+.hiw-items h2 {
+  font-weight: 500;
+}
+.hiw-image {
+  width: 120px;
+  height: 120px;
+}
