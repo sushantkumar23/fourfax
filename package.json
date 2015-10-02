@@ -15,10 +15,7 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "passport": "^0.3.0",
-<<<<<<< HEAD
-=======
     "passport-local": "^1.0.0",
->>>>>>> e85f91fde4ed78ed818d68cb1cab3619f8e6103e
     "serve-favicon": "~2.3.0",
     "stylus": "0.42.3"
   }
