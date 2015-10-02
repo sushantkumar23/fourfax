@@ -1,0 +1,80 @@
+npm ERR! Linux 3.13.0-48-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v4.1.1
+npm ERR! npm  v2.14.4
+npm ERR! file /home/ubuntu/fourfax/package.json
+npm ERR! code EJSONPARSE
+
+npm ERR! Failed to parse json
+npm ERR! Unexpected token '<' at 18:1
+npm ERR! <<<<<<< HEAD
+npm ERR! ^
+npm ERR! File: /home/ubuntu/fourfax/package.json
+npm ERR! Failed to parse package.json data.
+npm ERR! package.json must be actual JSON, not just JavaScript.
+npm ERR! 
+npm ERR! This is not a bug in npm.
+npm ERR! Tell the package author to fix their package.json file. JSON.parse
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/fourfax/npm-debug.log
+
+> fourfax@0.0.0 start /home/ubuntu/fourfax
+> node ./bin/www
+
+Fri, 02 Oct 2015 06:46:20 GMT express-session deprecated undefined resave option; provide resave option at app.js:24:9
+Fri, 02 Oct 2015 06:46:20 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:24:9
+Listening on port 3000
+
+> fourfax@0.0.0 start /home/ubuntu/fourfax
+> node ./bin/www
+
+Fri, 02 Oct 2015 06:49:48 GMT express-session deprecated undefined resave option; provide resave option at app.js:24:9
+Fri, 02 Oct 2015 06:49:48 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:24:9
+Listening on port 3000
+[0mGET / [32m200 [0m517.826 ms - 9293[0m
+[0mGET /font-awesome/css/font-awesome.min.css [32m200 [0m0.886 ms - 23739[0m
+[0mGET /css/fourfax.css [32m200 [0m0.863 ms - 9602[0m
+[0mGET /css/vendor/animate.min.css [32m200 [0m1.148 ms - 53593[0m
+[0mGET /css/vendor/bootstrap.min.css [32m200 [0m7.695 ms - 117150[0m
+[0mGET /js/vendor/jquery.js [32m200 [0m1.616 ms - 95785[0m
+[0mGET /js/vendor/holder.js [32m200 [0m1.051 ms - 79718[0m
+[0mGET /js/vendor/bootstrap.min.js [32m200 [0m0.627 ms - 35452[0m
+[0mGET /js/vendor/jquery.easing.min.js [32m200 [0m0.851 ms - 5564[0m
+[0mGET /js/vendor/jquery.fittext.js [32m200 [0m1.575 ms - 1074[0m
+[0mGET /js/vendor/wow.min.js [32m200 [0m1.333 ms - 8182[0m
+[0mGET /js/fourfax.js [32m200 [0m1.672 ms - 1271[0m
+[0mGET /font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0 [32m200 [0m0.507 ms - 56780[0m
+[0mGET /img/header.jpg [32m200 [0m0.660 ms - 125976[0m
+[0mGET / [32m200 [0m162.816 ms - 9293[0m
+[0mGET /css/vendor/animate.min.css [32m200 [0m0.678 ms - 53593[0m
+[0mGET /css/fourfax.css [32m200 [0m1.415 ms - 9602[0m
+[0mGET /font-awesome/css/font-awesome.min.css [32m200 [0m1.061 ms - 23739[0m
+[0mGET /js/vendor/jquery.js [32m200 [0m1.143 ms - 95785[0m
+[0mGET /js/vendor/jquery.easing.min.js [32m200 [0m2.757 ms - 5564[0m
+[0mGET /js/vendor/jquery.fittext.js [32m200 [0m1.038 ms - 1074[0m
+[0mGET /js/vendor/wow.min.js [32m200 [0m1.623 ms - 8182[0m
+[0mGET /css/vendor/bootstrap.min.css [32m200 [0m2.225 ms - 117150[0m
+[0mGET /js/fourfax.js [32m200 [0m2.506 ms - 1271[0m
+[0mGET /js/vendor/holder.js [32m200 [0m1.249 ms - 79718[0m
+[0mGET /js/vendor/bootstrap.min.js [32m200 [0m1.895 ms - 35452[0m
+[0mGET /img/header.jpg [32m200 [0m1.128 ms - 125976[0m
+[0mGET /font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0 [32m200 [0m0.877 ms - 56780[0m
+[0mGET /robots.txt [33m404 [0m86.705 ms - 3170[0m
+[0mGET /mobile/ [33m404 [0m57.746 ms - 3170[0m
+[0mGET / [32m200 [0m89.100 ms - 9293[0m
+[0mGET /css/vendor/animate.min.css [32m200 [0m2.202 ms - 53593[0m
+[0mGET /font-awesome/css/font-awesome.min.css [32m200 [0m1.893 ms - 23739[0m
+[0mGET /css/fourfax.css [32m200 [0m1.132 ms - 9602[0m
+[0mGET /css/vendor/bootstrap.min.css [32m200 [0m1.962 ms - 117150[0m
+[0mGET /js/vendor/jquery.js [32m200 [0m1.325 ms - 95785[0m
+[0mGET /js/vendor/holder.js [32m200 [0m0.712 ms - 79718[0m
+[0mGET /js/vendor/bootstrap.min.js [32m200 [0m1.327 ms - 35452[0m
+[0mGET /js/vendor/jquery.easing.min.js [32m200 [0m0.879 ms - 5564[0m
+[0mGET /js/vendor/jquery.fittext.js [32m200 [0m1.194 ms - 1074[0m
+[0mGET /js/vendor/wow.min.js [32m200 [0m0.680 ms - 8182[0m
+[0mGET /js/fourfax.js [32m200 [0m0.970 ms - 1271[0m
+[0mGET /font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0 [32m200 [0m0.928 ms - 56780[0m
+[0mGET /img/header.jpg [32m200 [0m1.062 ms - 125976[0m
+[0mGET /favicon.ico [33m404 [0m45.904 ms - 3170[0m
+[0mGET /favicon.ico [33m404 [0m18.779 ms - 3170[0m

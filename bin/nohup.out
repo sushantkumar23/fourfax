@@ -1,1 +1,16 @@
 Port 3000 is already in use
+module.js:82
+    throw e;
+    ^
+
+SyntaxError: Error parsing /home/ubuntu/fourfax/node_modules/passport/package.json: Unexpected token <
+    at Object.parse (native)
+    at readPackage (module.js:78:52)
+    at tryPackage (module.js:88:13)
+    at Function.Module._findPath (module.js:151:20)
+    at Function.Module._resolveFilename (module.js:334:25)
+    at Function.Module._load (module.js:286:25)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (/home/ubuntu/fourfax/app.js:7:16)
+    at Module._compile (module.js:434:26)
