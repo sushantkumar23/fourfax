@@ -6,6 +6,16 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var passport = require('passport');
 var session = require('express-session');
+var mongoose = require('mongoose');
+
+//Connect to the local mongodb server
+var db = mongoose.connection;
+
+db.on('error', console.error);
+db.once('open', function() {
+  // Create your schemas and models here.
+});
+mongoose.connect('mongodb://0.0.0.0:27017/test');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -31,7 +41,11 @@ app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(passport.initialize());
 app.use(passport.session());
-//// Initialize Passport
+
+//Initialize Mongoose models
+require('./models/models.js');
+
+// Initialize Passport
 var initPassport = require('./passport-init');
 initPassport(passport);
 
