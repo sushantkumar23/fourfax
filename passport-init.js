@@ -8,7 +8,7 @@ module.exports = function(passport){
     passport.serializeUser(function(user, done) {
         //Tell passport which id to use for user
         console.log('serializing user:', user.username);
-        return done(null, user.username);
+        done(null, user.username);
     });
 
     passport.deserializeUser(function(username, done) {
@@ -51,7 +51,8 @@ module.exports = function(passport){
                     username: username,
                     password: createHash(password)
                 };
-                return done(null, true);
+                console.log(users[username].username + ' registration successful.');
+                return done(null, users[username]);
 
             })
     );
